@@ -1,1 +1,2 @@
 # StatsCalculator
+[![Coverage Status](https://coveralls.io/repos/github/aal55/StatsCalculator/badge.svg?branch=Simple_Math_Functions)](https://coveralls.io/github/aal55/StatsCalculator?branch=Simple_Math_Functions) [![Build Status](https://travis-ci.com/aal55/StatsCalculator.svg?branch=master)](https://travis-ci.com/aal55/StatsCalculator)
