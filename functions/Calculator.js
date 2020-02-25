@@ -1,7 +1,7 @@
 const MathOperations = require('./MathOperations');
 
 class Calculator {
-    Add(a = null, b = null) {
+    Add(a,b) {
         if (Array.isArray(a)) {
             return this.result = MathOperations.sum(a);
         } else {
