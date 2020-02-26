@@ -3,5 +3,19 @@
   "version": "1.0.0",
   "dependencies": {
     "seedrandom": "^3.0.5"
+  "description": "First JS Node Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Bryan Bronstein",
+  "email": "bb389@njit.edu",
+  "license": "ISC",
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0"
   }
 }
