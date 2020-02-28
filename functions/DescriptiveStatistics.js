@@ -1,4 +1,6 @@
 const Calculator = require('./Calculator');
+const simple = require('simple-statistics');
+const { jStat } = require('jstat');
 
 class Statistics extends Calculator {
     Variance(a,b) {
@@ -19,7 +21,7 @@ class Statistics extends Calculator {
     Median(values){
         let median;
         let numValues = values.length;
-        if (numValues % 2 === 0 ) { //if array is even
+        if (numValues % 2 === 0 ) { //if valuesay is even
             median = (values[numValues / 2 - 1] + values[numValues / 2]) / 2;
         } else {
             median = values[(numValues - 1) / 2];
@@ -74,6 +76,37 @@ class Statistics extends Calculator {
             let newMean = this.Mean_Sample(newValues);
             return this.SquareRoot(newMean);
         }
+    Quartiles(values){
+        let middle = Math.round(values.length/2);
+        let q2 = this.Median(values);
+        let q1 = this.Median(values.slice(0,middle-1));
+        let q3 = this.Median(values.slice(middle+1,values.length -1));
+        return [q1,q2,q3].sort();
+    }
+    Skewness(values){
+        return simple.sampleSkewness(values);
+    }
+    SampleCorrelation(values1, values2){
+        return simple.sampleCorrelation(values1,values2);
+    }
+    PopulationCorrelation(values1, values2){
+        return jStat.corrcoeff(values1, values2);
+    }
+    Zscore(dataPoint, values){
+        return simple.zScore(dataPoint, this.Mean(values), this.StdDeviation(values))
+    }
+    MeanDeviation(values){
+        let mean = this.Mean(values);
+        let newValues = [];
+
+        for (let i = 0; i < values.length; i++) {
+            let newItem = this.Subtract(values[i], mean);
+            newItem = Math.abs(newItem);
+            newValues.push(newItem);
+        }
+        return this.Mean(newValues);
+    }
+
 
 
 }
