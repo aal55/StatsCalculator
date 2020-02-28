@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1582851926732" clover="3.2.0">
+  <project timestamp="1582851926732" name="All files">
+    <metrics statements="103" coveredstatements="103" conditionals="20" coveredconditionals="17" methods="32" coveredmethods="32" elements="155" coveredelements="152" complexity="0" loc="103" ncloc="103" packages="1" files="9" classes="9"/>
+    <file name="Calculator.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\Calculator.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="5" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="11" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="12" count="36" type="stmt"/>
+      <line num="15" count="11" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="21" count="26" type="stmt"/>
+      <line num="24" count="4" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+    </file>
+    <file name="DescriptiveStatistics.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\DescriptiveStatistics.js">
+      <metrics statements="61" coveredstatements="61" conditionals="10" coveredconditionals="9" methods="13" coveredmethods="13"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="11" count="9" type="stmt"/>
+      <line num="12" count="9" type="stmt"/>
+      <line num="13" count="9" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="23" count="5" type="stmt"/>
+      <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="29" count="5" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="39" count="5" type="stmt"/>
+      <line num="40" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="42" count="3" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="48" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="57" count="2" type="stmt"/>
+      <line num="59" count="2" type="stmt"/>
+      <line num="60" count="17" type="stmt"/>
+      <line num="61" count="17" type="stmt"/>
+      <line num="62" count="17" type="stmt"/>
+      <line num="64" count="2" type="stmt"/>
+      <line num="65" count="2" type="stmt"/>
+      <line num="68" count="1" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="71" count="1" type="stmt"/>
+      <line num="72" count="8" type="stmt"/>
+      <line num="73" count="8" type="stmt"/>
+      <line num="74" count="8" type="stmt"/>
+      <line num="76" count="1" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+      <line num="80" count="1" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="83" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+      <line num="90" count="1" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="96" count="1" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
+      <line num="100" count="1" type="stmt"/>
+      <line num="102" count="1" type="stmt"/>
+      <line num="103" count="8" type="stmt"/>
+      <line num="104" count="8" type="stmt"/>
+      <line num="105" count="8" type="stmt"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="113" count="1" type="stmt"/>
+    </file>
+    <file name="MathOperations.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\MathOperations.js">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="6"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="10" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="12" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="20" count="12" type="stmt"/>
+      <line num="23" count="37" type="stmt"/>
+      <line num="26" count="27" type="stmt"/>
+      <line num="29" count="5" type="stmt"/>
+      <line num="33" count="3" type="stmt"/>
+    </file>
+    <file name="divide.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\divide.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="13" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+    </file>
+    <file name="multiply.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\multiply.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+    </file>
+    <file name="square.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\square.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="28" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+    </file>
+    <file name="squareroot.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\squareroot.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="6" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+    </file>
+    <file name="subtract.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\subtract.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="38" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+    </file>
+    <file name="sum.js" path="C:\Users\Bryan B\PhpstormProjects\StatsCalculator\functions\sum.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <line num="3" count="108" type="stmt"/>
+      <line num="4" count="108" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="13" type="stmt"/>
+      <line num="6" count="92" type="stmt"/>
+      <line num="10" count="95" type="stmt"/>
+      <line num="12" count="108" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>

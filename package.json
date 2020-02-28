@@ -1,7 +1,7 @@
 {
   "name": "StatsCalculator",
   "version": "1.0.0",
-  "description": "First JS Node Project",
+  "description": "JS Node Statistical Calculator Project",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -15,5 +15,9 @@
   "devDependencies": {
     "coveralls": "^3.0.9",
     "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "jstat": "^1.9.2",
+    "simple-statistics": "^7.0.8"
   }
 }
