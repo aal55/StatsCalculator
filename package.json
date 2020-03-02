@@ -1,7 +1,7 @@
 {
   "name": "StatsCalculator",
   "version": "1.0.0",
-  "description": "First JS Node Project",
+  "description": "JS Node Statistical Calculator Project",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -18,5 +18,7 @@
   },
   "dependencies": {
     "seedrandom": "^3.0.5"
+    "jstat": "^1.9.2",
+    "simple-statistics": "^7.0.8"
   }
 }
