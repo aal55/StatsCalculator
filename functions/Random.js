@@ -39,19 +39,22 @@ class Random {
         let pos = this.getSeededInt(seed,0, arr.length - 1);
         return arr[pos];
     }
-    static selectRandomItems(arr) {
+    static selectRandomItems(n, arr) {
         let temp = [];
-        let n = this.getRandomInt(0, arr.length - 1);
         for(let i = 0; i < n; i++) {
-            temp[i] = arr[i];
+            let rand = this.getRandomInt(0, arr.length - 1);
+            temp[i] = arr[rand];
+            arr.splice(rand, 1);
         }
         return temp;
     }
-    static selectSeededItems(seed, arr) {
+    static selectSeededItems(seed, n, arr) {
         let temp = [];
-        let pos = this.getSeededInt(seed, 0, arr.length - 1);
-        for(let i = 0; i < pos; i++) {
-            temp[i] = arr[i];
+        let rng = seedrandom(seed);
+        for(let i = 0; i < n; i++) {
+            let rand = this.getSeededInt(rng(), 0, arr.length - 1);
+            temp[i] = arr[rand];
+            arr.splice(rand, 1);
         }
         return temp;
     }
