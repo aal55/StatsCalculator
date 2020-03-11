@@ -3,8 +3,12 @@ const simple = require('simple-statistics');
 const { jStat } = require('jstat');
 
 class Statistics extends Calculator {
-    Variance(a,b) {
-        return this.Subtract(a,b);
+    Variance(values) {
+        return this.Square(this.StdDeviation(values));
+    }
+
+    Variance_Sample(values) {
+        return this.Square(this.StdDeviation_Sample(values));
     }
 
     Mean(values) {
@@ -64,18 +68,18 @@ class Statistics extends Calculator {
         let newMean = this.Mean(newValues);
         return this.SquareRoot(newMean);
     }
-        StdDeviation_Sample(values){//for sample of population
-            let mean = this.Mean(values);
-            let newValues = [];
+    StdDeviation_Sample(values){//for sample of population
+        let mean = this.Mean(values);
+        let newValues = [];
 
-            for (let i = 0; i < values.length; i++) {
-                let newItem = this.Subtract(values[i], mean);
-                newItem = this.Square(newItem);
-                newValues.push(newItem);
-            }
-            let newMean = this.Mean_Sample(newValues);
-            return this.SquareRoot(newMean);
+        for (let i = 0; i < values.length; i++) {
+            let newItem = this.Subtract(values[i], mean);
+            newItem = this.Square(newItem);
+            newValues.push(newItem);
         }
+        let newMean = this.Mean_Sample(newValues);
+        return this.SquareRoot(newMean);
+    }
     Quartiles(values){
         let middle = Math.round(values.length/2);
         let q2 = this.Median(values);
