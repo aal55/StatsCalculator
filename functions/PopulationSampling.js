@@ -5,11 +5,7 @@ const { jStat } = require('jstat');
 
 class PopulationSampling extends Calculator {
     SimpleRandomSampling(population, sampleSize) {
-        let temp = [];
-        for(let i = 0; i < sampleSize; i++) {
-            temp[i] = Random.getRandomItem(population);
-        }
-        return temp;
+        return Random.selectRandomItems(sampleSize, population);
     }
     SystematicSampling(population, sampleSize) {
         let temp = [];
