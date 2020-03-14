@@ -7,9 +7,9 @@
 
 
 
-##Project Plan
+## Project Plan
 
-###Program Diagram
+### Program Diagram
 
 **Descriptive Statistics Object (DescriptiveStatistics.js)**
 
