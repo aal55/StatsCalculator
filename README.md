@@ -9,7 +9,7 @@
 
 ## Project Plan
 
-### Program Diagram
+### <i>Program Diagram</i>
 
 **Descriptive Statistics Object (DescriptiveStatistics.js)**
 
@@ -139,7 +139,7 @@ squareroot -> Get squareroot of one number and return result
 ```
 
 
-### Task List
+### <i>Task List<i/>
 
 **Simple functions classes**
 
