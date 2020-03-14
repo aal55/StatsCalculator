@@ -110,8 +110,5 @@ class Statistics extends Calculator {
         }
         return this.Mean(newValues);
     }
-
-
-
 }
 module.exports = Statistics;
